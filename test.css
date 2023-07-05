@@ -6,3 +6,22 @@
     cursor: url(); 
     /* eta diye cursor change hobe oi file er upor */
 }
+.box{
+    padding: 20px;
+    background-color: red;  
+    width: 120px;
+    
+    
+}
+.box2{
+    background-color: green;
+}
+.box3 {
+    background-color: blue;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
