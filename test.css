@@ -1,0 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+}
+.test {
+    cursor: url(); 
+    /* eta diye cursor change hobe oi file er upor */
+}
