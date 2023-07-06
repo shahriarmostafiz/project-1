@@ -1,20 +1,21 @@
 *{
     margin:0;
     padding:0;
+    cursor: pointer;
 }
 .test {
-    cursor: url(); 
-    /* eta diye cursor change hobe oi file er upor */
-}
+    cursor: pointer; }
+    /* /* eta diye cursor change hobe oi file er upor */
 .box{
     padding: 20px;
     background-color: red;  
     width: 120px;
-    
+    /* height: 110px; */
     
 }
 .box2{
     background-color: green;
+    /* width: 300px; */
 }
 .box3 {
     background-color: blue;
@@ -23,5 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    height: 520px;
+    align-items: flex-end;
 }

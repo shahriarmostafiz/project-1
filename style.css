@@ -1,6 +1,17 @@
 *{
     margin:0;
     padding:0;
+    cursor: pointer;
+}
+a{
+    text-decoration: none !important;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+
+}
+a:hover,.logo:hover {
+    color: rgb(12, 194, 200);
 }
 .menu-container {
     display: flex;
@@ -28,10 +39,10 @@ margin-right: 100px;
     padding:10px;
     font-size: 18px;
     cursor: pointer;
+    
+    color: white;
 }
-.item:hover{
-    color: blue
-}
+
 .banner-container {
     display: flex;
     justify-content: space-around;
