@@ -32,4 +32,20 @@ margin-right: 100px;
 .item:hover{
     color: blue
 }
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    border: 2px solid grey ;
+    color: white;
+
+
+}
+.banner-photo {
+    width: 300px;
+    height:190px;
+}
+
+
 
